@@ -1,0 +1,333 @@
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #3E1E68;
+    overflow: hidden;
+}
+
+.background span {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 20vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 45;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #FFACAC;
+    top: 12%;
+    left: 33%;
+    animation-duration: 39s;
+    animation-delay: -30s;
+    transform-origin: 1vw 3vh;
+    box-shadow: 40vmin 0 5.867745973993879vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #E45A84;
+    top: 4%;
+    left: 45%;
+    animation-duration: 42s;
+    animation-delay: -29s;
+    transform-origin: 21vw 15vh;
+    box-shadow: 40vmin 0 5.736761047362432vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #E45A84;
+    top: 89%;
+    left: 72%;
+    animation-duration: 26s;
+    animation-delay: -42s;
+    transform-origin: 20vw -8vh;
+    box-shadow: -40vmin 0 5.3174929503008075vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #E45A84;
+    top: 36%;
+    left: 38%;
+    animation-duration: 13s;
+    animation-delay: -25s;
+    transform-origin: -13vw 18vh;
+    box-shadow: 40vmin 0 5.810809871655443vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #FFACAC;
+    top: 67%;
+    left: 56%;
+    animation-duration: 47s;
+    animation-delay: -42s;
+    transform-origin: -18vw -20vh;
+    box-shadow: -40vmin 0 5.952920172152675vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #E45A84;
+    top: 43%;
+    left: 15%;
+    animation-duration: 26s;
+    animation-delay: -1s;
+    transform-origin: -22vw -7vh;
+    box-shadow: 40vmin 0 5.072105206379008vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #E45A84;
+    top: 50%;
+    left: 100%;
+    animation-duration: 6s;
+    animation-delay: -21s;
+    transform-origin: 15vw -4vh;
+    box-shadow: 40vmin 0 5.048950991921021vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #FFACAC;
+    top: 59%;
+    left: 81%;
+    animation-duration: 23s;
+    animation-delay: -32s;
+    transform-origin: -16vw 19vh;
+    box-shadow: -40vmin 0 5.5227169329962615vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #FFACAC;
+    top: 92%;
+    left: 48%;
+    animation-duration: 53s;
+    animation-delay: -5s;
+    transform-origin: -15vw 13vh;
+    box-shadow: 40vmin 0 5.35325656336666vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #583C87;
+    top: 2%;
+    left: 40%;
+    animation-duration: 10s;
+    animation-delay: -27s;
+    transform-origin: -24vw -23vh;
+    box-shadow: -40vmin 0 5.3269876634647595vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #E45A84;
+    top: 46%;
+    left: 40%;
+    animation-duration: 7s;
+    animation-delay: -49s;
+    transform-origin: 25vw 8vh;
+    box-shadow: 40vmin 0 5.798217248604105vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #FFACAC;
+    top: 93%;
+    left: 81%;
+    animation-duration: 10s;
+    animation-delay: -42s;
+    transform-origin: 4vw -22vh;
+    box-shadow: -40vmin 0 5.518077981344838vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #FFACAC;
+    top: 38%;
+    left: 86%;
+    animation-duration: 37s;
+    animation-delay: -25s;
+    transform-origin: -13vw -7vh;
+    box-shadow: -40vmin 0 5.614668008157057vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #583C87;
+    top: 13%;
+    left: 57%;
+    animation-duration: 23s;
+    animation-delay: -18s;
+    transform-origin: -18vw 1vh;
+    box-shadow: -40vmin 0 5.004249171814075vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #FFACAC;
+    top: 98%;
+    left: 71%;
+    animation-duration: 21s;
+    animation-delay: -46s;
+    transform-origin: 5vw 0vh;
+    box-shadow: 40vmin 0 5.619355258404277vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #583C87;
+    top: 27%;
+    left: 39%;
+    animation-duration: 32s;
+    animation-delay: -8s;
+    transform-origin: 24vw 20vh;
+    box-shadow: 40vmin 0 5.059749733176063vmin currentColor;
+}
+.background span:nth-child(16) {
+    color: #583C87;
+    top: 80%;
+    left: 84%;
+    animation-duration: 26s;
+    animation-delay: -35s;
+    transform-origin: -6vw -8vh;
+    box-shadow: -40vmin 0 5.146522901138381vmin currentColor;
+}
+.background span:nth-child(17) {
+    color: #583C87;
+    top: 4%;
+    left: 77%;
+    animation-duration: 39s;
+    animation-delay: -5s;
+    transform-origin: 9vw 22vh;
+    box-shadow: -40vmin 0 5.5252890301027495vmin currentColor;
+}
+.background span:nth-child(18) {
+    color: #E45A84;
+    top: 4%;
+    left: 52%;
+    animation-duration: 33s;
+    animation-delay: -30s;
+    transform-origin: -10vw -23vh;
+    box-shadow: -40vmin 0 5.7691516293328045vmin currentColor;
+}
+.background span:nth-child(19) {
+    color: #E45A84;
+    top: 58%;
+    left: 42%;
+    animation-duration: 50s;
+    animation-delay: -36s;
+    transform-origin: 17vw -20vh;
+    box-shadow: 40vmin 0 5.26871258441227vmin currentColor;
+}
+
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding: 0 30px;
+    margin: 0;
+}
+
+button, input {
+    border: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+}
+
+.sign-up {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    max-width: 460px;
+    padding: 200px 40px;
+    background: rgb(68 65 70 / 28%);
+    backdrop-filter: blur(50px);
+}
+
+.sign-up h2 {
+    margin: 0 0 6px;
+    color: rgb(255 255 255 / 96%);
+}
+
+.sign-up h3 {
+    margin: 0 0 30px;
+    color: rgb(255 255 255 / 40%);
+}
+
+.form {
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.textbox span {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    left: 0;
+    font-size: 22px;
+    pointer-events: none;
+    color: rgb(255 255 255 / 40%);
+}
+
+.textbox input {
+    padding: 0 24px 0 36px;
+    border-bottom: 2px solid rgb(255 255 255 / 5%);
+    color: rgb(255 255 255 / 96%);
+    height: 72px;
+    transition: 0.3s;
+}
+
+:is(input:focus, input:valid)
+label {
+    translate: -40px -40px;
+    scale: 0.875;
+}
+
+input:focus label {
+    color: rgb(255 255 255 / 40%);
+}
+
+input:focus {
+    border-color: rgb(255 255 255 / 76%);
+}
+
+:is(input:focus, input:valid) span {
+    color: rgb(255 255 255 / 76%);
+}
+
+.textbox label {
+    position: absolute;
+    top: 50%;
+    left: 36px;
+    translate: 0 -50%;
+    color: rgb(255 255 255 / 40%);
+    pointer-events: none;
+    transition: 0.4s;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-radius: 6px;
+    background: rgb(255 255 255 / 12%);
+    color: #f9f9f9;
+    border: 0;
+}
+
+.sign-up p {
+    color: rgb(255 255 255 / 50%);
+}
+
+.sign-up p, a {
+    color: rgb(255 255 255 / 96%);
+}
